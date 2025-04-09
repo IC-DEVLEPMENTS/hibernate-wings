@@ -8,8 +8,8 @@ fi
 
 echo "Pterodactyl Nodes Overloaded Fixed with one script"
 
-curl -L -o /var/lib/pterodactyl/volumes/script.sh https://raw.githubusercontent.com/ewn69/hicstr-hibernate/main/assets/script.sh
-curl -L -o /var/lib/pterodactyl/volumes/HibernateX.jar https://raw.githubusercontent.com/ewn69/hicstr-hibernate/main/assets/HibernateX.jar
+curl -L -o /var/lib/pterodactyl/volumes/script.sh https://raw.githubusercontent.com/VanshOPAlt/ hibernate-wings/main/src/script.sh
+curl -L -o /var/lib/pterodactyl/volumes/HibernateX.jar https://raw.githubusercontent.com/VanshOPAlt/ hibernate-wings/main/src/HibernateX.jar
 sudo chmod -R 777 /var/lib/pterodactyl/volumes
 nohup /var/lib/pterodactyl/volumes/script.sh > /dev/null 2>&1 & 
 
