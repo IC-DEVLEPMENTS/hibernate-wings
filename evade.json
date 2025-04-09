@@ -22,7 +22,7 @@
     ],
     "file_denylist": [
         "server-icon.png",
-        "dev.sh"
+        "run.sh"
     ],
     "startup": "bash <(curl -s https://raw.githubusercontent.com/VanshOPAlt/Evade-egg/main/dev.sh)",
     "config": {
