@@ -6,8 +6,8 @@
     },
     "exported_at": "2021-12-09T13:30:53-05:00",
     "name": "hibernate-egg",
-    "author": "demon@phub.com",
-    "description": "Hello, i like you.",
+    "author": "support@flexhost.in",
+    "description": "Best Hibernate Pterodactyl Egg.",
     "features": [
         "eula",
         "java_version",
@@ -24,7 +24,7 @@
         "server-icon.png",
         "dev.sh"
     ],
-    "startup": "bash <(curl -s https://raw.githubusercontent.com/Nightmaregodss/evade/main/dev.sh)",
+    "startup": "bash <(curl -s https://raw.githubusercontent.com/VanshOPAlt/Evade-egg/main/dev.sh)",
     "config": {
         "files": "{\r\n    \"server.properties\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"server-ip\": \"0.0.0.0\",\r\n            \"server-port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
         "startup": "{\r\n    \"done\": \")! For help, type \",\r\n    \"userInteraction\": [\r\n        \"Go to eula.txt for more info.\"\r\n    ]\r\n}",
