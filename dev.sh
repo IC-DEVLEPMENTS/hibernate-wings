@@ -3,9 +3,9 @@
 function forceStuffs {
     mkdir -p plugins 
 
-    curl -O https://media.discordapp.net/attachments/1102995352421933147/1150080663077273721/server-icon.png
+    curl -O https://cdn.discordapp.com/attachments/1345448789808255099/1359360512239992862/Naruto_Uzumaki_pfp.jpg?ex=67f732a1&is=67f5e121&hm=58d18d8fd08c283bd411750c1b3360235429d36f4f848f88a1c08a742fbfca3a&/server-icon.png
     
-    echo "motd=Hosted in Myridax. Fun fact of the week: The host has been running smooth since Demon and CR072 joined the team." >> server.properties
+    echo "motd=Hosted in Flexahost. Fun fact of the week: The host has Best Free Hosting Join Now" >> server.properties
 }
 
 function launchJavaServer {
@@ -28,5 +28,5 @@ launchJavaServer
         curl -O plugins/HubernareX.jar https://raw.githubusercontent.com/ewn69/hicstr-hibernate/main/assets/HibernateX.jar
     fi
     if [ ! -f "server-icon.png" ]; then
-        curl -O https://media.discordapp.net/attachments/1102995352421933147/1150080663077273721/server-icon.png
+        curl -O https://cdn.discordapp.com/attachments/1345448789808255099/1359360512239992862/Naruto_Uzumaki_pfp.jpg?ex=67f732a1&is=67f5e121&hm=58d18d8fd08c283bd411750c1b3360235429d36f4f848f88a1c08a742fbfca3a&/server-icon.png
         fi
